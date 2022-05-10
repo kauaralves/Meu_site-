@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.cabecalho{
+    width: auto;
+    height: 200px;
+    background: black;
+}
+
+.menu{
+
+}
+
+li{
+    color: white;
+}
