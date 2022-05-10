@@ -22,3 +22,8 @@ li{
     height: 200px;
     width: auto;
 }
+
+.texto_imagem{
+    display: block;
+    margin: auto;
+}
