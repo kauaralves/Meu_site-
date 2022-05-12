@@ -10,10 +10,6 @@
     background: black;
 }
 
-.menu{
-
-}
-
 li{
     color: white;
 }
@@ -26,4 +22,15 @@ li{
 .texto_imagem{
     display: block;
     margin: auto;
+    justify-content: center;
+}
+
+.posts{
+    border: black 5px solid;
+    padding: 10px
+}
+
+p{
+    margin-top: 20px;
+    font-size: 15px;
 }
