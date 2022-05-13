@@ -1,3 +1,9 @@
+body{
+    width: 900px;
+    margin: auto;
+    font-family: 'Indie Flower';
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +18,7 @@
 
 li{
     color: white;
+    margin-left: 20px;
 }
 
 .minha_imagem{
@@ -25,12 +32,42 @@ li{
     justify-content: center;
 }
 
+.post_image{
+    width: 100%;
+}
+
 .posts{
     border: black 5px solid;
-    padding: 10px
+    padding: 10px;
+    margin: 0 20px 0 20px;
+    border-radius: 8px;
+}
+
+.posts p{
+    text-transform: capitalize;
+    font-family: 'Indie Flower';
+}
+
+.post-content{
+    text-align:justify;
 }
 
 p{
     margin-top: 20px;
     font-size: 15px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050
+}
+
+.contact-list{
+    list-style: square;
+    list-style: none;
+}
+
+.contact-list a{
+    text-decoration: none;
 }
